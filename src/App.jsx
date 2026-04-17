@@ -3,6 +3,8 @@ import NormalForm from './components/normalForm/NormalForm';
 import FormAction from './components/formAction/FormAction';
 import ControlledField from './components/controlledFilled/ControlledField';
 import UnControlledField from './components/unControlledField/UnControlledField';
+import HooksForm from './components/hooksForm/HooksForm';
+import ProductManagement from './components/productManagement/ProductManagement';
 
 function App() {
 
@@ -13,7 +15,9 @@ function App() {
      {/* <NormalForm></NormalForm> */}
      {/* <FormAction></FormAction> */}
      {/* <ControlledField></ControlledField> */}
-     <UnControlledField></UnControlledField>
+     {/* <UnControlledField></UnControlledField> */}
+     {/* <HooksForm></HooksForm> */}
+     <ProductManagement></ProductManagement>
               
     </>
   )

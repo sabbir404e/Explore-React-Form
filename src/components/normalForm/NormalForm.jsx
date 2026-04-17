@@ -13,6 +13,7 @@ const NormalForm = () => {
             <input type="text" name='name' placeholder='Your Name' />
             <br />
              <input type="email" name="email" placeholder='Your Email' />
+             <br/>
             <input type="Submit" value="Submit" />
             </form>
         </div>

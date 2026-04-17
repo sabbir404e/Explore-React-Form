@@ -1,5 +1,7 @@
-import './App.css'
-import NormalForm from './components/normalForm/NormalForm'
+import './App.css';
+import NormalForm from './components/normalForm/NormalForm';
+import FormAction from './components/formAction/FormAction';
+import ControlledField from './components/controlledFilled/ControlledField';
 
 function App() {
 
@@ -7,7 +9,9 @@ function App() {
     <>
 
      <h2>Explore React Form</h2>
-     <NormalForm></NormalForm>
+     {/* <NormalForm></NormalForm> */}
+     {/* <FormAction></FormAction> */}
+     <ControlledField></ControlledField>
               
     </>
   )
